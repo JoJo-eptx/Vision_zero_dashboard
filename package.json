@@ -1,0 +1,57 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@heroicons/react": "^2.1.4",
+    "@mui/icons-material": "^7.3.4",
+    "@mui/material": "^7.3.7",
+    "@tailwindcss/forms": "^0.5.7",
+    "@vercel/postgres": "^0.10.0",
+    "apexcharts": "^5.3.5",
+    "autoprefixer": "10.4.19",
+    "bcrypt": "^6.0.0",
+    "clsx": "^2.1.1",
+    "next": "^16.1.6",
+    "next-auth": "^5.0.0-beta.29",
+    "plotly.js": "^3.3.1",
+    "postcss": "8.4.38",
+    "react": "^18.3.1",
+    "react-apexcharts": "^1.8.0",
+    "react-dom": "^18.3.1",
+    "react-plotly.js": "^2.6.0",
+    "tailwindcss": "3.4.4",
+    "typescript": "5.5.2",
+    "use-debounce": "^10.0.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "20.14.8",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "name": "mobility-plan-progress-page",
+  "version": "1.0.0",
+  "description": "This Next.js app fetches action item data from an ArcGIS web service, categorizes them, and displays progress on action items. Each page shows a consistent layout that allows users to filter and view the status of different action items based on their category.",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoJo-eptx/systemic_safety_dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JoJo-eptx/systemic_safety_dashboard/issues"
+  },
+  "homepage": "https://github.com/JoJo-eptx/systemic_safety_dashboard#readme"
+}

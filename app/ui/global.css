@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.navlink {
+  background-color: #1D2754;
+  color: white;  /* text color */
+  position: relative;
+  padding-left: 12px; /* add space for the stripe */
+}
+
+.navlink::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px; /* thickness of the stripe */
+  background-color: #F7AE2B;
+  border-radius: 2px;
+}
+
+.navlink:hover {
+  background-color: #F7AE2B;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  font-family: 'Proxima Nova', Arial, sans-serif;
+}
+
+body {
+  font-family: 'Proxima Nova', Arial, sans-serif;
+  font-weight: 400; /* Regular */
+}
+
+/* For bold text */
+.bold-text {
+  font-weight: 700; /* Bold */
+}

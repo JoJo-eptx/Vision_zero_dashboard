@@ -1,0 +1,12 @@
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 30px solid black;
+    border-left: 30px solid transparent;
+    border-right: 20px solid transparent;
+}
+
+.container {
+    max-width: 800px; /* Set your desired max width */
+    margin: 0 auto; /* Center the container */
+}
